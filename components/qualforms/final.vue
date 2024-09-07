@@ -29,50 +29,6 @@
         </p>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col>
-        <p>
-          Please register an account for profile management and document
-          handling
-        </p>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-text-field
-          v-model="store.email"
-          label="Email"
-          dense
-          outlined
-          :rules="emailValid"
-        ></v-text-field>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-text-field
-          v-model="store.Password"
-          label="Password"
-          type="password"
-          dense
-          outlined
-          :rules="passwordRules"
-        ></v-text-field>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <v-text-field
-          v-model="store.confPassword"
-          label="Confirm Password"
-          type="password"
-          dense
-          outlined
-          :rules="confirmPasswordRules"
-          @keyup.enter="cont"
-        ></v-text-field>
-      </v-col>
-    </v-row>
   </v-container>
 </template>
 <script>

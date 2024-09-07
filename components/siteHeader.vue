@@ -89,7 +89,8 @@
           >{{ name.title }}</v-btn
         >
       </template>
-      <login />
+      <!-- <login /> -->
+      <v-spacer />
       <v-btn
         icon
         aria-label="Night/Light mode toggle"
@@ -104,11 +105,11 @@
 </template>
 
 <script>
-import login from './login.vue'
+// import login from './login.vue'
 export default {
-  components: {
-    login,
-  },
+  // components: {
+  //   login,
+  // },
   data() {
     return {
       clipped: false,

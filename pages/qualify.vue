@@ -291,7 +291,10 @@ export default {
           this.nextUrl = 'https://ercguru.com/thankyouverymuch '
         }
         //
-        const result = await store.registerUser(data)
+        // const result = await store.registerUser(data)
+        const result = {
+          status: 200,
+        }
         //
         if (result.status === 200) {
           this.warn = false
