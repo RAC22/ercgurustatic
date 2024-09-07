@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/qualify", {data:[{}],fetch:{},mutations:void 0});
